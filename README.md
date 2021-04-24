@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Preview Desktop](./preview_dektop.png)
+![Preview Desktop](./preview_desktop.png)
 
 ![Preview Mobile](./preview_mobile.png)
 
