@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+
+body {
+  color: var(--clr-secondary);
+  font-size: var(--font-size);
+  font-family: var(--font-family);
+  line-height: 140%;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 1.75em;
+  line-height: 1.25;
+  margin: 0;
+  @media screen and (min-width: 900px) {
+    font-size: 2.4em;
+  }
+}
+
+h2,
+h3 {
+  font-size: 1.425em;
+  font-weight: 500;
+  margin: 0;
+}
+
+p {
+  font-size: 0.825em;
+  color: var(--clr-mid);
+  @media screen and (min-width: 900px) {
+    font-size: 1em;
+    line-height: 150%;
+  }
+}

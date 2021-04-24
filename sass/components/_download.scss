@@ -1,0 +1,69 @@
+.download-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1.75em 7.5em;
+  text-align: center;
+}
+
+.download {
+  &-head {
+    margin: 0 auto;
+    max-width: 40ch;
+  }
+
+  &-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    margin-top: 2.5em;
+    @media screen and (min-width: 900px) {
+      flex-direction: row;
+    }
+  }
+
+  &-el {
+    flex: 1 1 100%;
+    padding: 1.5em;
+    border-radius: 12px;
+    box-shadow: 0 10px 10px 5px rgba(0, 0, 0, 0.055);
+    background: {
+      image: url("images/bg-dots.svg");
+      position: 0 70%;
+      repeat: repeat-x;
+    }
+
+    & + & {
+      margin-top: 1.5em;
+      @media screen and (min-width: 900px) {
+        margin-top: 0;
+      }
+    }
+    @media screen and (min-width: 900px) {
+      &:first-of-type {
+        margin-bottom: 4em;
+      }
+
+      &:last-of-type {
+        margin-top: 4em;
+      }
+    }
+
+    &__icon {
+      margin-bottom: 1.5em;
+    }
+
+    &__ctrl {
+      padding-top: 3em;
+    }
+
+    h3 {
+      font-size: 1.125em;
+    }
+
+    h3,
+    p {
+      margin: 0 auto;
+    }
+  }
+}
