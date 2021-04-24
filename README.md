@@ -27,13 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Preview Desktop](./preview_dektop.jpg)
+![Preview Desktop](./preview_dektop.png)
 
-![Preview Mobile](./preview_mobile.jpg)
+![Preview Mobile](./preview_mobile.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://bookmark-landing-page-livid.vercel.app/)
+- Live Site URL: [bookmark-landing-page-livid.vercel.app](https://bookmark-landing-page-livid.vercel.app/)
 
 ## My process
 
